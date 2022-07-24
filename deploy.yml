@@ -4,7 +4,7 @@ metadata:
    name: mlapp
 spec:
    containers:
-   - name: mlapp
-     image: mjomban/mlapp:latest
-     ports:
-     - containerPort: 8080
+    - name: mlapp
+      image: mjomban/mlapp:latest
+      ports:
+        - containerPort: 8080
