@@ -4,12 +4,11 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=mjomban/mlapp
+dockerpath=mjomban/mlapp:latest
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run mlapp --image=$dockerpath --port=80
-kubectl run mlapp --image=mjomban/mlapp --port=80
+kubectl run mlapp --image=$dockerpath --port=8080
 
 # Step 3:
 # List kubernetes pods
@@ -17,4 +16,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward mlapp 80:80
+kubectl port-forward mlapp 8080:8080
