@@ -8,9 +8,9 @@
 setup:
 	# Create python virtualenv & source it
 	# source ~/.mlapp/bin/activate
-	apt install -y python3-venv
+	
 	python3 -m venv ~/.mlapp
-	source ~/.mlapp/bin/activate
+	~/.mlapp/bin/activate
 
 install:
 	# This should be run from inside a virtualenv
