@@ -13,6 +13,7 @@ jobs:
       - run:
           name: Install dependencies
           command: |
+            
             # Install hadolint
             wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
             chmod +x /bin/hadolint
@@ -27,6 +28,6 @@ jobs:
       - run:
           name: Run lint
           command: |
-            source ~/.mlapp/bin/activate
+            ~/.mlapp/bin/activate
             make lint           
 
