@@ -6,7 +6,7 @@ The project aims to operationalize a Machine Learning Microservice API.
 It contains a pre-trained, `sklearn` model that is trained to predict prices of houses in Boston based on average rooms in a home,data about highway access, teacher-to-pupil ratios, and so on. More information on [the data source site](https://www.kaggle.com/c/boston-housing).The main aim is to tests the operationalization a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. The project can be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
 ## Running the App
-####The poject contains various files.
+#### The poject contains various files.
 1. run_docker.sh - contains scripts that will run snd build docker image
 2. upload_docker.sh -contains scripts that will upload docker image to the registry
 3. make_prediction.sh - contains scripts that will allow predictions
