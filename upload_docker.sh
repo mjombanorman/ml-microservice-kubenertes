@@ -5,12 +5,12 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=mjomban/mlapp
+dockerpath=mjomban/mlappops
 
 # Step 2:  
 # Authenticate & tag
 docker login
-docker tag mlapp $dockerpath:latest
+docker tag mlappops $dockerpath:latest
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
