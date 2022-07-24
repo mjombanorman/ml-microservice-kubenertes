@@ -6,11 +6,12 @@
 # Step 1:
 # Create dockerpath
 dockerpath=mjomban/mlappops
+app=mlappops
 
 # Step 2:  
 # Authenticate & tag
 docker login
-docker tag mlappops $dockerpath:latest
+docker tag $app $dockerpath:latest
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:

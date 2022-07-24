@@ -12,4 +12,4 @@ docker images
 
 # Step 3: 
 # Run flask app
-docker run -p 8080:8080 mjomban/mlapp
+docker run -p 8080:8080 mjomban/mlappops

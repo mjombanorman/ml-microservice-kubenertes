@@ -9,7 +9,7 @@ app=mlappops
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run mlapp --image=$dockerpath --port=8080
+kubectl run $app --image=$dockerpath --port=8080
 
 # Step 3:
 # List kubernetes pods
